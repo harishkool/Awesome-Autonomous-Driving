@@ -127,7 +127,7 @@ Andrew Sipperley, Anthony Pettinato, Bobbie Seppelt, Linda Angell, Bruce Mehler,
   * Xiaozhi Chen, Kaustav Kundu, Ziyu Zhang, Huimin Ma, Sanja Fidler, Raquel Urtasun,Tsinghua University, University of Toronto
 * Subcategory-Aware Convolutional Neural Networks for Object Proposals and Detection [[Paper]](https://ieeexplore.ieee.org/abstract/document/7926691/)
   * Yu Xiang, Wongun Choi, Yuanqing Lin, and Silvio Savarese, University of Washington, NEC Lab, Baidu, Stanford University 
-* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[Paper](https://arxiv.org/abs/1711.06396)] [[Code]] (https://github.com/tsinghua-rll/VoxelNet-tensorflow)
+* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[Paper](https://arxiv.org/abs/1711.06396)] [[Code] (https://github.com/tsinghua-rll/VoxelNet-tensorflow)]
   *Yin Zhou, Oncel Tuzel
 
 
