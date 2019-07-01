@@ -126,7 +126,10 @@ Andrew Sipperley, Anthony Pettinato, Bobbie Seppelt, Linda Angell, Bruce Mehler,
 * Monocular 3D Object Detection for Autonomous Driving [[Paper]](https://ieeexplore.ieee.org/document/7780605/)
   * Xiaozhi Chen, Kaustav Kundu, Ziyu Zhang, Huimin Ma, Sanja Fidler, Raquel Urtasun,Tsinghua University, University of Toronto
 * Subcategory-Aware Convolutional Neural Networks for Object Proposals and Detection [[Paper]](https://ieeexplore.ieee.org/abstract/document/7926691/)
-  * Yu Xiang, Wongun Choi, Yuanqing Lin, and Silvio Savarese, University of Washington, NEC Lab, Baidu, Stanford University  
+  * Yu Xiang, Wongun Choi, Yuanqing Lin, and Silvio Savarese, University of Washington, NEC Lab, Baidu, Stanford University 
+* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection [[Paper](https://arxiv.org/abs/1711.06396)] [[Code]] (https://github.com/tsinghua-rll/VoxelNet-tensorflow)
+  *Yin Zhou, Oncel Tuzel
+
 
 ### Object Tracking
 * Beyond Pixels Leveraging Geometry and Shape Cues for Online Multi-Object Tracking [[Paper]](https://arxiv.org/pdf/1802.09298.pdf)
@@ -343,6 +346,8 @@ Exploring the Applications of Deep Learning [[Paper](http://openaccess.thecvf.co
 
 ### Control
 ### RL in Autonomous Driving
+* ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst[[Paper](https://arxiv.org/abs/1812.03079)]
+  *Mayank Bansal, et al.
 
 ## Dataset
 * [KITTI Benchmark ](http://www.cvlibs.net/datasets/kitti/raw_data.php) - Tasks of interest are: stereo, optical flow, visual odometry, 3D object detection and 3D tracking. For this purpose, we equipped a standard station wagon with two high-resolution color and grayscale video cameras. Accurate ground truth is provided by a Velodyne laser scanner and a GPS localization system.
@@ -352,6 +357,7 @@ Exploring the Applications of Deep Learning [[Paper](http://openaccess.thecvf.co
 ,Car Instance,Lane Segmentation,Self Localization,Trajectory
 * [SYNTHetic collection of Imagery and Annotations (SYNTHIA)](http://synthia-dataset.net/) - SYNTHIA, The  SYNTHetic collection of Imagery and Annotations, is a dataset that has been generated with the purpose of aiding semantic segmentation and related scene understanding problems in the context of driving scenarios. SYNTHIA consists of a collection of photo-realistic frames rendered from a virtual city and comes with precise pixel-level semantic annotations.
 * [Nuscenenes](https://www.nuscenes.org/) -The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving provided by nuTonomy-Aptiv. By releasing a subset of our data to the public, we aim to support public research into computer vision and autonomous driving. For this purpose we collected 1000 driving scenes in Boston and Singapore, two cities that are known for their dense traffic and highly challenging driving situations. The scenes of 20 second length are manually selected to show a diverse and interesting set of driving maneuvers, traffic situations and unexpected behaviors. The rich complexity of nuScenes will encourage development of methods that enable safe driving in urban areas with dozens of objects per scene. Gathering data on different continents further allows us to study the generalization of computer vision algorithms across different locations, weather conditions, vehicle types, vegetation, road markings and left versus right hand traffic.
+* [Argoverse](https://www.argoverse.org/) - The argoverse dataset from self-driving start up Argo AI provides a dataset on 3D tracking, vehicle trajectories and HD maps. Object tracking dataset consist of 113 scenes, vehicle trajectory dataset consist of 327,793 trajectories from over 1000 driving hours. Tasks include object tracking and motion forecasting. 
 * [Daimler Urban Segmetation Dataset](http://www.6d-vision.com/scene-labeling) - The Daimler Urban Segmentation Dataset consists of video sequences recorded in urban traffic. The dataset consists of 5000 rectified stereo image pairs with a resolution of 1024x440. 500 frames (every 10th frame of the sequence) come with pixel-level semantic class annotations into 5 classes: ground, building, vehicle, pedestrian, sky. Dense disparity maps are provided as a reference, however these are not manually annotated but computed using semi-global matching (sgm).
 * [GTSRB, GTSDB](https://www.nuscenes.org/) - Dataset for Traffic Sign Classification, Traffic Sign Detection.  
 * [LaRA](http://www.lara.prd.fr/benchmarks/trafficlightsrecognition)- Traffic Lights Recognition (TLR) public benchmarks
